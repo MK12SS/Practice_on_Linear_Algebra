@@ -1,0 +1,3 @@
+﻿  Matrix.cpp
+c:\users\mk12s\source\repos\matrix\matrix\matrix.h(32): error C2065: “endl”: 未声明的标识符
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(55): error C2059: 语法错误:“)”
