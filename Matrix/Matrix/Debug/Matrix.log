@@ -1,3 +1,31 @@
 ﻿  Matrix.cpp
-c:\users\mk12s\source\repos\matrix\matrix\matrix.h(32): error C2065: “endl”: 未声明的标识符
-c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(55): error C2059: 语法错误:“)”
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(5): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(7): warning C4244: “初始化”: 从“float”转换到“unsigned int”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(10): warning C4244: “初始化”: 从“float”转换到“unsigned int”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(152): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(202): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(221): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(241): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(263): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(347): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(369): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(392): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  main.cpp
+c:\users\mk12s\source\repos\matrix\matrix\main.cpp(9): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  正在生成代码...
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(67): warning C4715: “Matrix::determinant”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(113): warning C4715: “Matrix::lineMinus”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(94): warning C4715: “Matrix::diagonalize”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(132): warning C4715: “Matrix::colMinus”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(148): warning C4715: “Matrix::invert”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(175): warning C4715: “Matrix::cramerRule”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(189): warning C4715: “Matrix::distractLU”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(213): warning C4715: “Matrix::getLine”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(254): warning C4715: “Matrix::lineSwap”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(276): warning C4715: “Matrix::colSwap”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(301): warning C4715: “Matrix::lineMul”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(320): warning C4715: “Matrix::colMul”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(361): warning C4715: “operator+”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(388): warning C4715: “operator*”: 不是所有的控件路径都返回值
+c:\users\mk12s\source\repos\matrix\matrix\matrix.cpp(232): warning C4715: “Matrix::getCol”: 不是所有的控件路径都返回值
+  Matrix.vcxproj -> C:\Users\MK12S\source\repos\Matrix\Debug\Matrix.exe
