@@ -6,19 +6,22 @@
 class Matrix
 {
 public:
+	Matrix();
 	Matrix(float line, float col);
 	Matrix(const Matrix &origin);
 	~Matrix();
 	float determinant();
 	Matrix diagonalize();
-	Matrix lineMinus(int line_1, int line_2);
-	Matrix colMinus(int col_1, int col_2);
+	Matrix lineReduction(int line_1, int line_2);
+	Matrix colReduction(int col_1, int col_2);
+	void addCol(Matrix &a);
+	void addLine(Matrix &a);
 
 	Matrix invert();
 	Matrix transpose();
 	Matrix cramerRule(Matrix &rightmost);
 	Matrix distractLU();
-	bool isSpan();
+	Matrix solve();
 
 	float getElement(int i, int j) { return this->headP[i][j]; }
 	Matrix getLine(int line_1);
@@ -30,6 +33,8 @@ public:
 	Matrix colMul(float coefficient, int col_1);
 
 	void operator=(const Matrix &a);
+	bool operator==(const Matrix &a);
+	bool operator!=(const Matrix &a);
 	friend Matrix operator+(Matrix &a, Matrix &b);
 	friend Matrix operator*(Matrix &a, Matrix &b);
 	friend Matrix operator*(Matrix &a, float &coefficient);
@@ -56,7 +61,7 @@ public:
 		}
 		return inp;
 	}
-
+	friend Matrix unitMat(int n);
 private:
 	float** headP;
 	int line;
